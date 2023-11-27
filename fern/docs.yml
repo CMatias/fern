@@ -1,0 +1,30 @@
+instances:
+  - url: your-organization.docs.buildwithfern.com
+
+title: Your Organization | Docs
+
+navigation:
+  - section: Getting started
+    contents: 
+      - page: Welcome 
+        path: ./docs/pages/welcome.mdx
+      - page: SDKs
+        path: ./docs/pages/sdks.mdx
+  - api: API Reference
+
+navbar-links: 
+  - type: secondary
+    text: Contact us
+    url: "mailto:support@buildwithfern.com"
+  - type: primary
+    text: Join the Discord
+    url: https://discord.com/invite/JkkXumPzcG
+
+colors:
+  accentPrimary:
+    dark: "#1FBAB4"
+    light: "#126d69"
+
+logo:
+  dark: ./docs/assets/fern_logo.png
+  light: ./docs/assets/fern_logo.png
